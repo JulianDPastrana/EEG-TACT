@@ -1,0 +1,24 @@
+# Trash files
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Large files
+results/many_seed_experiments/**/models/
+results/many_seed_experiments/**/weights/
+results/many_seed_experiments/**/*.keras
+results/many_seed_experiments/**/*.h5
+results/many_seed_experiments/**/cm/
+results/many_seed_experiments/**/training_curves/
+*.mat
+*.pkl
+*.log
+*.csv
+*.json
+*.dat
