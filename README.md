@@ -1,2 +1,2 @@
-# EEG-Former
+# EEG-TACT 
 
