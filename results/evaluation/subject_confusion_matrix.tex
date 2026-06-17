@@ -1,0 +1,16 @@
+\begin{table}[ht]
+\centering
+\caption{Subject-level confusion matrix for EEG-TACT (best-seed, 5-fold cross-validation, $N = 120$ subjects). Rows: true diagnosis; columns: predicted diagnosis. TN: true negative; FP: false positive; FN: false negative; TP: true positive. Derived diagnostic metrics: sensitivity $= 95.1\%$; specificity $= 79.7\%$; PPV $= 82.9\%$; NPV $= 94.0\%$; F1 $= 88.5\%$. Mean fold-level metrics (mean $\pm$ std across 5 folds): accuracy $= 87.5\%$; balanced accuracy $= 87.8\%$; F1 $= 88.7\%$; AUC $= 89.9\%$.}
+\label{tab:subject_cm}
+\begin{tabular}{llcc}
+\toprule
+& & \multicolumn{2}{c}{\textbf{Predicted}} \\
+\cmidrule(lr){3-4}
+& & \textbf{Control} & \textbf{ADHD} \\
+\midrule
+\multirow{2}{*}{\textbf{Actual}}
+  & \textbf{Control} ($n = 59$) & \textbf{47} (TN) & 12 (FP) \\
+  & \textbf{ADHD}    ($n = 61$)    & 3 (FN)            & \textbf{58} (TP) \\
+\bottomrule
+\end{tabular}
+\end{table}
